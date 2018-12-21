@@ -1,8 +1,8 @@
 /* Pallete #FF7E63 #F2DBA2 #F2E4C1 #E47D65 #677CAF*/
 body{background:url('https://beelzkoala.github.io/studentOniks/img/hohlo.png') no-repeat;}
-@media only screen and (max-width: 700px) and (min-width: 320px)   {
+/*@media only screen and (max-width: 700px) and (min-width: 320px)   {
 body{background:url();background-color:white;min-height: none}
-}
+}*/
 #lk {padding-top:15px;position: absolute;text-decoration: none; font-family: "Tahoma";margin-top: -10px;right:10%;background: #e6e6e6;height:20px; width: 200px;padding-left:15px;padding-right: 10px;border-radius: 0px 0px 15px 15px;box-shadow: 2px 2px 2px 2px black;}
 #lk a{text-decoration:none;}
 #lk a:hover{color: #3366ff;}
@@ -11,22 +11,22 @@ body{background:url();background-color:white;min-height: none}
 #logo{float: left;width:100%;max-width:468px;min-height:60px;}
 #logo img{width:100%;border-radius: 5px 0px 0px 0px;height:100%;}
 #logo a{}
-@media only screen and (max-width: 700px) and (min-width: 320px) {
+/*@media only screen and (max-width: 700px) and (min-width: 320px) {
 #header{border-radius: 5px 5px 0px 0px;margin-left:5%;margin-right:5%;background: #FF7E63; height: 7%;box-shadow: 1px 1px 1px 1px black;}
 #logo{float: left;width:100%;max-width:none;min-height:none;}
 #logo img{width:100%;border-radius: 5px 0px 0px 0px;height:100%;min-height:none;}
-}
+}*/
 #Menu{border-radius: 0px 0px 5px 5px;margin-top: 2px;margin-bottom:2px;background:#F2DBA2;margin-left:5%;margin-right:5%;height: 6.6%;min-height:40px;box-shadow: 1px 1px 1px 1px}
 #Menu a{padding-left: 1.5%;display: inline-block; color: red;text-decoration-line:none;font-size:1.5em;display:inline-block;font-family: "Tahoma" }
 #Menu a:hover{color:#FF7E63}
 #Menu td:hover{border-radius: 5px 5px 5px 5px;background-color:#f4e9cd}
 #Menu a:active {color:#E47D65;text-shadow: 1px 1px;}
-#Gallery {border-radius: 5px 5px 5px 5px;float:left;height:15%; background: #52638c;width: 89.8%;margin-left:5.15%;margin-right:5.15%;box-shadow:-1px -1px -1px -1px black;}
+/*#Gallery {border-radius: 5px 5px 5px 5px;float:left;height:15%; background: #52638c;width: 89.8%;margin-left:5.15%;margin-right:5.15%;box-shadow:-1px -1px -1px -1px black;}
 #Gallery img {margin-left: 5%;height:100%;float:left;}
 @media only screen and (max-width: 700px) and (min-width: 320px)  { 
 #Gallery {border-radius: 5px 5px 5px 5px;float:left;height:7%; background: #52638c;width: 89.8%;margin-left:5.15%;margin-right:5.15%;}
 #Gallery img {margin-left: 5%;height:100%;float:left;}
-}
+}*/
  #slide1 img:hover {border-radius: 10px 10px 10px 10px; box-shadow: 1px 1px 1px 1px black;}
  #slide2 img:hover {border-radius: 10px 10px 10px 10px;box-shadow: 1px 1px 1px 1px black;}
  #slide3 img:hover {border-radius: 10px 10px 10px 10px;box-shadow: 1px 1px 1px 1px black;}
@@ -62,3 +62,98 @@ body{background:url();background-color:white;min-height: none}
 #napravblock2{position:relative;border-radius: 0px 0px 0px 0px;width:34.7%;padding-top:5px;height:50%;background-color: #F2DBA2;margin-left:0.3%;box-shadow: 1px 1px 1px 1px;float:left;}
 #napravblock3{position:relative;border-radius: 0px 5px 0px 0px;width:20%;padding-top:5px;height:50%;background:  #F2DBA2;margin-left:0.3%;box-shadow: 1px 1px 1px 1px;float:left;}
 #napravblock3 img{width:100%}
+
+/*Галерея*/
+#images-box {
+	border-radius: 5px 5px 5px 5px;
+	float:left;
+	height:15%; 
+	background: #52638c;
+	width: 89.8%;
+	margin-left:5.15%;
+	margin-right:5.15%;
+	
+}
+
+.image-lightbox img {
+    width: inherit;
+    height: inherit;
+    z-index: 3000;
+}
+.holder{
+	width:100;
+    float: left;
+    margin-left:2%;
+}
+@media only screen and (max-width: 700px) and (min-width: 320px)  {
+.holder { margin-left:1%;}
+}
+#Gallery{width:100%; height:100%}
+div#image-1 { left: 50%; }
+div#image-2 { left: 60%; }
+div#image-3 { left: 70%; }
+div#image-4 { left: 80%; }
+div#image-5 { left: 90%; }
+div#image-1:target, div#image-2:target, div#image-3:target,div#image-4:target,div#image-5:target  {left:0px; }
+.image-lightbox {
+    width: inherit;
+    height: 90%;
+    padding: 5px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    background: #fff;
+    border-radius: 5px;
+    position: relative;
+    top: 16.6%;
+    font-family: Arial, sans-serif;
+     -webkit-transition: all ease-in 0.5s;
+    -moz-transition: all ease-in 0.5s;
+    -ms-transition: all ease-in 0.5s;
+    -o-transition: all ease-in 0.5s;
+}
+.image-lightbox span {
+    display: none;
+}
+
+.image-lightbox .expand {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 4000;
+    left: 0;
+}
+
+.image-lightbox .close {
+    position: absolute;
+    width: 100%; height: 100%;
+    right: 0; top: 0;
+}
+
+.image-lightbox .close a {
+    height: 100%; width:100%;
+    padding: ;
+    color: #fff;
+    text-decoration: none;
+    background: ;
+    box-shadow: inset 0px 24px 20px -15px rgba(255, 255, 255, 0.1), inset 0px 0px 10px rgba(0,0,0,0.4), 0px 0px 30px rgba(255,255,255,0.4);
+    border-radius: 5px;
+    font-weight: bold;
+    float: right;
+}
+.image-lightbox .close a:hover {
+    box-shadow: inset 0px -24px 20px -15px rgba(255, 255, 255, 0.01), inset 0px 0px 10px rgba(0,0,0,0.4), 0px 0px 20px rgba(255,255,255,0.4);
+}
+div[id^=image]:target {
+    width: 300px;
+    z-index: 5000;
+    width: 450px;
+    height: 300px;
+    LEFT: 100px;
+}
+div[id^=image]:target .close {
+    display: block;
+}
+
+div[id^=image]:target .expand {
+    display: none;
+}
