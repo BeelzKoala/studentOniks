@@ -1,0 +1,64 @@
+/* Pallete #FF7E63 #F2DBA2 #F2E4C1 #E47D65 #677CAF*/
+body{background:url('https://beelzkoala.github.io/studentOniks/img/hohlo.png') no-repeat;}
+@media only screen and (max-width: 700px) and (min-width: 320px)   {
+body{background:url();background-color:white;min-height: none}
+}
+#lk {padding-top:15px;position: absolute;text-decoration: none; font-family: "Tahoma";margin-top: -10px;right:10%;background: #e6e6e6;height:20px; width: 200px;padding-left:15px;padding-right: 10px;border-radius: 0px 0px 15px 15px;box-shadow: 2px 2px 2px 2px black;}
+#lk a{text-decoration:none;}
+#lk a:hover{color: #3366ff;}
+#home{ width: 100%; min-width:800;min-height: 600px}
+#header{border-radius: 5px 5px 0px 0px;margin-left:5%;margin-right:5%;background: #FF7E63; height: 10%;box-shadow: 1px 1px 1px 1px black;}
+#logo{float: left;width:100%;max-width:468px;min-height:60px;}
+#logo img{width:100%;border-radius: 5px 0px 0px 0px;height:100%;}
+#logo a{}
+@media only screen and (max-width: 700px) and (min-width: 320px) {
+#header{border-radius: 5px 5px 0px 0px;margin-left:5%;margin-right:5%;background: #FF7E63; height: 7%;box-shadow: 1px 1px 1px 1px black;}
+#logo{float: left;width:100%;max-width:none;min-height:none;}
+#logo img{width:100%;border-radius: 5px 0px 0px 0px;height:100%;min-height:none;}
+}
+#Menu{border-radius: 0px 0px 5px 5px;margin-top: 2px;margin-bottom:2px;background:#F2DBA2;margin-left:5%;margin-right:5%;height: 6.6%;min-height:40px;box-shadow: 1px 1px 1px 1px}
+#Menu a{padding-left: 1.5%;display: inline-block; color: red;text-decoration-line:none;font-size:1.5em;display:inline-block;font-family: "Tahoma" }
+#Menu a:hover{color:#FF7E63}
+#Menu td:hover{border-radius: 5px 5px 5px 5px;background-color:#f4e9cd}
+#Menu a:active {color:#E47D65;text-shadow: 1px 1px;}
+#Gallery {border-radius: 5px 5px 5px 5px;float:left;height:15%; background: #52638c;width: 89.8%;margin-left:5.15%;margin-right:5.15%;box-shadow:-1px -1px -1px -1px black;}
+#Gallery img {margin-left: 5%;height:100%;float:left;}
+@media only screen and (max-width: 700px) and (min-width: 320px)  { 
+#Gallery {border-radius: 5px 5px 5px 5px;float:left;height:7%; background: #52638c;width: 89.8%;margin-left:5.15%;margin-right:5.15%;}
+#Gallery img {margin-left: 5%;height:100%;float:left;}
+}
+ #slide1 img:hover {border-radius: 10px 10px 10px 10px; box-shadow: 1px 1px 1px 1px black;}
+ #slide2 img:hover {border-radius: 10px 10px 10px 10px;box-shadow: 1px 1px 1px 1px black;}
+ #slide3 img:hover {border-radius: 10px 10px 10px 10px;box-shadow: 1px 1px 1px 1px black;}
+ #slide4 img:hover {border-radius: 10px 10px 10px 10px;box-shadow: 1px 1px 1px 1px black;}
+ #slide5 img:hover {border-radius: 10px 10px 10px 10px;box-shadow: 1px 1px 1px 1px black;}
+#infoblock1{position:relative;;border-radius: 5px 0px 0px 0px;width:44.8%;padding-top:5px;height:50%;background: #F2DBA2;margin-left:5%;box-shadow: 1px 1px 1px 1px;float:left;}
+#infoblockText{max-height:90%;overflow:auto;font-family: "Calibri";padding: 2% 2% 2% 2%; font-size: 1em;}
+#infoblockText a{color:#677CAF; text-decoration:none;}
+#infoblockText a:hover{color:blue;}
+#infoblock2{border-radius: 0px 5px 0px 0px;width:44.8%;padding-top:5px;height:50%;background: #F2DBA2;margin-right:5%;box-shadow: 1px 1px 1px 1px;float:right;}
+#footer{border-radius: 0px 0px 5px 5px;float:left;width:90%;height:9%; background: #FF7E63;margin-top:2px;margin-left:5%;margin-right:5%;float:bottom;box-shadow: 1px 1px 1px 1px;}
+#Copyright{padding-top: 10px;padding-left: 15px; font-size:12pt;}
+
+/*Личный кабинет*/
+#lkblock1 {position:relative;border-radius: 5px 0px 0px 0px;width:29.8%;padding-top:5px;height:50%;background: #d9c591;margin-left:5%;box-shadow: 1px 1px 1px 1px;float:left;}
+#lkblock1:hover{background-color:#F2DBA2}
+#lkblock1:active{background-color:#F2DBA2}
+#lkblock1:focus{background-color:#F2DBA2}
+#lkblock2 {position:relative;border-radius: 0px 0px 0px 0px;width:29.8%;padding-top:5px;height:50%;background: #d9c591;margin-left:0.3%;box-shadow: 1px 1px 1px 1px;float:left;}
+#lkblock2:hover{background-color:#F2DBA2}
+#lkblock2:active{background-color:#F2DBA2}
+#lkblock2:focus{background-color:#F2DBA2}
+#lkblock3 {position:relative;border-radius: 0px 5px 0px 0px;width:29.8%;padding-top:5px;height:50%;background: #d9c591;margin-left:0.3%;box-shadow: 1px 1px 1px 1px;float:left;}
+#lkblock3:hover{background-color:#F2DBA2}
+#lkblock3:active{background-color:#F2DBA2}
+#lkblock3:focus{background-color:#F2DBA2}
+#lkblockAutho {max-height:90%;overflow:auto;font-family: "Calibri";padding: 2% 2% 2% 2%; font-size: 1em;}
+#lkblockAutho a{color:#677CAF; text-decoration:none;}
+#lkblockAutho a:hover{color:blue;}
+
+/*Направления*/
+#napravblock1{position:relative;border-radius: 5px 0px 0px 0px;width:34.7%;padding-top:5px;height:50%;background-color:#F2DBA2;margin-left:5%;box-shadow: 1px 1px 1px 1px;float:left;}
+#napravblock2{position:relative;border-radius: 0px 0px 0px 0px;width:34.7%;padding-top:5px;height:50%;background-color: #F2DBA2;margin-left:0.3%;box-shadow: 1px 1px 1px 1px;float:left;}
+#napravblock3{position:relative;border-radius: 0px 5px 0px 0px;width:20%;padding-top:5px;height:50%;background:  #F2DBA2;margin-left:0.3%;box-shadow: 1px 1px 1px 1px;float:left;}
+#napravblock3 img{width:100%}
